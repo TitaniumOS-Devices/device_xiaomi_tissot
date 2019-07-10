@@ -5,6 +5,10 @@ persist.vendor.audio.fluence.voicecall=true \
 persist.vendor.audio.fluence.voicerec=false \
 ro.vendor.audio.sdk.fluencetype=fluence
 
+# Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.vendor.shutdown.waittime=500
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 vendor.camera.aux.packageblacklist=com.discord \
