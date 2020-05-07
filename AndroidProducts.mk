@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tissot.mk
+    $(LOCAL_DIR)/titanium_tissot.mk
+
+COMMON_LUNCH_CHOICES := \
+    titanium_tissot-user \
+    titanium_tissot-userdebug \
+    titanium_tissot-eng \

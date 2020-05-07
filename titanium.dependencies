@@ -1,0 +1,29 @@
+[
+  {
+    "repository": "TitaniumOS-Devices/device_xiaomi_msm8953-common",
+    "target_path": "device/xiaomi/msm8953-common",
+    "branch": "ten",
+    "remote": "github"
+  },
+
+  {
+    "repository": "DerpFest-Devices/kernel_xiaomi_msm8953",
+    "target_path": "kernel/xiaomi/msm8953",
+    "branch": "derp10",
+    "remote": "github"
+  },
+
+  {
+    "repository": "DerpFest-Devices/vendor_xiaomi_tissot",
+    "target_path": "vendor/xiaomi",
+    "branch": "derp10",
+    "remote": "github"
+  },
+
+  { 
+    "remote": "github",
+    "repository": "Jprimero15/lolz_clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-11",
+    "branch": "master"
+  }
+]
