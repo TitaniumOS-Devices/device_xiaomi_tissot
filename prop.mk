@@ -23,3 +23,6 @@ persist.camera.eis.enable=1
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.delta_time.enable=true \
 persist.delta_time.enable=true \
+
+#Playback
+mm.enable.sec.smoothstreaming=true
