@@ -12,7 +12,10 @@
     limitations under the License.
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"> 
+
+   <!-- Button brightness --> 
+   <bool name="config_button_brightness_support">true</bool>
 
    <!-- Enable system navigation keys. -->
    <bool name="config_supportSystemNavigationKeys">true</bool>
